@@ -35,9 +35,9 @@
             <img src="rnt_logo.png" alt="Roads not Taken" />
         </nav>
     </header>
-
+    <!-- I added in the iframe so that the video would load from youtube  -->
     <figure>
-        <iframe src="http://www.youtube.com/v/ie2Mspukx14" frameborder="0"></iframe>
+        <iframe src="http://www.youtube.com/v/ie2Mspukx14"></iframe>
         <figcaption>Robert Frost reads <cite>The Road Not Taken</cite></figcaption>
     </figure>
 
@@ -68,12 +68,15 @@
     </section>
 
     <section id="secondary">
-
+        <!-- I added in the audio and put in the two sources a mp3 and a ogg I also put in a embed so older browsers can work as well I defined the embed by sizing it and set the controler on adn autoplay on in two ways so that it was able to work on different platforms. I also set up text to appear for when the embed doesn't work -->
         <section class="poem">
             <h2>Fire and Ice</h2>
             <audio controls>
                 <source src="rnt_fireice.ogg" type="audio/ogg">
                 <source src="rnt_fireice.mp3" type="audio/mp3">
+                <embed src="rnt_fireice.mp3" width="250px" height="50px" controller="yes" autoplay="no" type="audio/mp3"
+                    showcontrols="yes" autostart="no">
+                <p><em>No Embedded audio is supported</em></p>
             </audio>
             <p>
                 Some say the world will end in fire,<br />
@@ -89,8 +92,15 @@
         </section>
 
         <section class="poem">
+            <!-- I added in the audio and put in the two sources a mp3 and a ogg I also put in a embed so older browsers can work as well I defined the embed by sizing it and set the controler on adn autoplay on in two ways so that it was able to work on different platforms. I also set up text to appear for when the embed doesn't work -->
             <h2>Devotion</h2>
-
+            <audio controls>
+                <source src="rnt_devotion.ogg" type="audio/ogg">
+                <source src="rnt_devotion.mp3" type="audio/mp3">
+                <embed src="rnt_devotion.mp3" width="250px" height="50px" controller="yes" autoplay="no" type="audio/mp3"
+                    showcontrols="yes" autostart="no">
+                <p><em>No Embedded audio is supported</em></p>
+            </audio>
             <p>
                 The heart can think of no devotion<br />
                 Greater than being shore to the ocean&mdash;<br />

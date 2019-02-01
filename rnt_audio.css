@@ -14,3 +14,16 @@
 */
 
 /* Audio Styles */
+/* This sets the audios to bock gives them a shadow sets their margin and their width, I added in the border radius to make it look better*/
+audio {
+    display: block;
+    box-shadow: darkgray 8px 8px 15px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 30px;
+}
+
+/* This changes the background color of the audio controls but it doesn't work on some browsers */
+audio::-webkit-media-controls-panel {
+    background-color: rgb(128, 128, 255);
+}
